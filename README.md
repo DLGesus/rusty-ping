@@ -2,14 +2,14 @@
 
 A Rust built Ping CLI application that supports Ipv4 and hostname addressing. This application was developed for the Cloudflare systems internship.
 
-### Commandline Usage
+## Commandline Usage
 
 ```
 $ cargo run -- 1.1.1.1 --ttl=128
 $ ./target/debug/rusty-ping google.com --ttl=4
 ```
 
-### Output
+## Output
 
 This is the output when pinging google.com with a TTL set to 59
 
